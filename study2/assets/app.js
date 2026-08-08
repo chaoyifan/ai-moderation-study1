@@ -9,14 +9,13 @@
   }
 
   const COPY = {
-    prompt: "请写一篇适合发布在社区平台的学习效率经验分享，包含一个具体方法、执行步骤和实用提醒，语气自然。",
-    generated: `最近在尝试“25分钟专注 + 5分钟休息”的方法，最大的变化不是一天能做更多事，而是开始一项任务时没那么容易拖延了。
+    generated: `学习效率方法｜25分钟专注 + 5分钟休息
 
-我的做法是先把当天要完成的事情拆成几步，每轮只写一个具体目标，比如“读完两页并记下三个要点”，而不是笼统地写“复习”。开始计时前，我会把手机调成免打扰，关掉暂时用不到的网页。
+最近在尝试“25分钟专注 + 5分钟休息”。最大的变化不是一天能做更多事，而是开始任务时没那么容易拖延了。
 
-25分钟结束后一定离开座位休息5分钟，可以接水、活动一下，但尽量不刷短视频。连续完成三轮后，再用十分钟检查哪些任务估时不准，并调整下一轮安排。
+我会先把当天任务拆成几步，每轮只写一个具体目标，比如“读完两页并记下三个要点”。计时前，把手机调成免打扰，关掉不用的网页。
 
-这个方法不适合所有任务。如果需要长时间进入状态，可以把一轮延长到40分钟。关键不是严格卡点，而是让开始、专注和复盘都有清楚的边界。`,
+25分钟结束后，我会休息5分钟，接水或活动一下，尽量不刷短视频。完成三轮后，再用十分钟检查进度。如果任务需要长时间进入状态，可以把一轮延长到40分钟。关键不是严格卡点，而是让开始、专注和复盘都有清晰边界。`,
     rule: "系统检测到该内容在创作过程中使用了生成式AI，但发布时未添加AI内容声明。根据平台AI内容透明规则，此类内容需要说明生成式AI的使用。",
   };
 
@@ -37,8 +36,8 @@
   const previous = readState();
 
   const state = {
-    screen: previous?.screen === "experience" ? "experience" : "consent",
-    generated: Boolean(previous?.generated),
+    screen: "experience",
+    generated: true,
     draft: COPY.generated,
     declarationChoice: previous?.declarationChoice || "none",
     menuOpen: false,
@@ -107,27 +106,8 @@
   const root = document.getElementById("root");
 
   function render() {
-    root.innerHTML = state.screen === "consent" ? consentScreen() : experienceScreen();
+    root.innerHTML = experienceScreen();
     wireEvents();
-  }
-
-  function consentScreen() {
-    return `
-      <main class="landingShell">
-        <section class="landingCard" aria-labelledby="welcome-title">
-          <div class="brandMark" aria-hidden="true">澄</div>
-          <p class="eyebrow">内容平台体验研究</p>
-          <h1 id="welcome-title">开始前说明</h1>
-          <p class="landingLead">你将使用模拟AI生成一篇学习效率经验，编辑后发布到虚构社区平台。请按照你的真实想法操作。</p>
-          <div class="infoGrid">
-            <div><b>研究性质</b><span>所有页面均为研究模拟，不属于真实平台。</span></div>
-            <div><b>数据范围</b><span>仅记录流程状态、时间和匿名参与编号。</span></div>
-            <div><b>退出权利</b><span>你可随时关闭页面，不会产生额外影响。</span></div>
-          </div>
-          <label class="checkRow"><input id="consent" type="checkbox"><span>我已阅读以上说明，自愿继续参与本次模拟体验。</span></label>
-          <button id="enter" class="primaryButton" disabled>进入创作任务</button>
-        </section>
-      </main>`;
   }
 
   function experienceScreen() {
@@ -137,8 +117,8 @@
         <main class="microblogFrame" id="experience">
           ${leftRail()}
           <section class="mainColumn">
-            ${!state.generated ? generationCard() : composerCard()}
-            ${state.generated ? feed() : ""}
+            ${composerCard()}
+            ${feed()}
           </section>
           ${rightRail()}
         </main>
@@ -182,17 +162,6 @@
       <ol class="trendList">${topics.map((x, i) => `<li><b>${i + 1}</b><span>${x[0]}</span><small>${x[1]}</small></li>`).join("")}</ol></section>
       <section class="researchNotice"><strong>研究环境提示</strong>以上频道、热搜与互动数据均为固定模拟内容，不代表真实平台或真实用户。</section>
     </aside>`;
-  }
-
-  function generationCard() {
-    return `<section class="generationCard" aria-labelledby="task-title">
-      <p class="eyebrow">任务 01</p>
-      <h1 id="task-title">生成内容草稿</h1>
-      <p class="lead">系统已准备固定提示词。所有参与者将获得完全相同的AI生成结果。</p>
-      <div class="promptBox"><span>发送给模拟AI的提示词</span><p>${COPY.prompt}</p></div>
-      <p class="fixedOutputNote">本研究采用固定输出，点击生成不会调用真实AI服务。</p>
-      <button id="generate" class="primaryButton">生成内容</button>
-    </section>`;
   }
 
   function composerCard() {
@@ -293,27 +262,6 @@
   }
 
   function wireEvents() {
-    const consent = document.getElementById("consent");
-    const enter = document.getElementById("enter");
-    if (consent && enter) {
-      consent.addEventListener("change", () => { enter.disabled = !consent.checked; });
-      enter.addEventListener("click", () => {
-        state.screen = "experience";
-        state.timestamps.consentedAt = new Date().toISOString();
-        save("consented");
-        render();
-      });
-    }
-
-    document.getElementById("generate")?.addEventListener("click", () => {
-      state.generated = true;
-      state.draft = COPY.generated;
-      state.timestamps.generatedAt = new Date().toISOString();
-      save("generated");
-      render();
-      document.getElementById("postEditor")?.focus();
-    });
-
     const editor = document.getElementById("postEditor");
     editor?.addEventListener("input", (event) => {
       state.draft = event.target.value;
@@ -367,3 +315,4 @@
   save("opened");
   render();
 })();
+
