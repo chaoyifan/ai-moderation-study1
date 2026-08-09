@@ -248,16 +248,16 @@ a { color: inherit; text-decoration: none; }
 .statusIcon.danger { color: var(--danger); background: var(--danger-soft); }
 .ruleText { margin: 17px 0 0; padding-top: 15px; border-top: 1px solid var(--line); color: #555; font-size: 14px; line-height: 1.7; }
 .consequenceBox { margin: 14px 0 0; padding: 13px 14px; border-left: 4px solid var(--orange); color: #3b4842; background: #fff8f0; font-size: 13px; line-height: 1.65; }
+.consequenceBox.withFeedbackAction { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+.consequenceBox.withFeedbackAction > span:first-child { flex: 1; }
 .moderatorCard { margin-top: 0; }
 .participantIdentity { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; min-height: 24px; }
 .participantIdentity b { line-height: 1.35; }
 .qualityCreatorBadge { display: inline-flex; align-items: center; gap: 3px; min-height: 23px; padding: 3px 8px; border: 1px solid #efaa55; border-radius: 999px; color: #a85b00; background: #fff1df; font-size: 11px; font-weight: 700; line-height: 1; white-space: nowrap; }
 .qualityCreatorBadge > span { color: #ff8200; font-size: 12px; }
-.feedbackPanelRow h2 { margin: 3px 0 0; font-size: 19px; }
-.feedbackPanelRow { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .secondaryButton { min-height: 38px; padding: 8px 17px; border: 1px solid var(--orange); border-radius: 20px; color: var(--orange-dark); background: #fff; font-weight: 700; }
 .secondaryButton:hover { background: var(--orange-soft); }
-.feedbackConfirmation { margin: 15px 0 0; padding-top: 14px; border-top: 1px solid var(--line); color: #4e765e; font-size: 14px; }
+.feedbackConfirmation { flex: none; color: #4e765e; font-size: 13px; font-weight: 700; white-space: nowrap; }
 .feedbackDialog { position: fixed; z-index: 100; inset: 0; display: grid; place-items: center; padding: 20px; background: rgba(0, 0, 0, .42); }
 .feedbackDialogPanel { width: min(520px, 100%); padding: 24px; border-radius: 8px; background: #fff; box-shadow: 0 18px 60px rgba(0, 0, 0, .24); }
 .feedbackDialogPanel h2 { margin: 0; font-size: 21px; }
@@ -312,6 +312,7 @@ a { color: inherit; text-decoration: none; }
   .ambientMedia { height: 190px; }
   .heatMedia { height: 175px; }
   .feedReturnRow { padding-inline: 12px; }
+  .consequenceBox.withFeedbackAction { align-items: flex-start; flex-direction: column; gap: 11px; }
   .landingCard { padding: 32px 22px; }
   .infoGrid { grid-template-columns: 1fr; }
   .infoGrid div + div { border-top: 1px solid var(--line); border-left: 0; }
