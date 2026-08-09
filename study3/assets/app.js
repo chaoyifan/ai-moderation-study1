@@ -232,4 +232,161 @@
     ${(removed || reminder) ? `${treatmentNotice(removed ? "removal" : "reminder")}${moderatorPanel()}` : ""}`;
   }
 
-  function treatmentNotice(tyç¿t¶‰žËkºwµçffF"²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²v–GFƒ¢C‡ƒ²†V–v‡C¢C‡ƒ²fÆWƒ¢æöæS²&÷&FW"×&F—W3¢SS²6öÆ÷#¢6ffc²&6¶w&÷VæC¢Æ–æV"Öw&F–VçBƒCVFVrÂ6ffCSrÂ6fcsƒ“²föçB×6—¦S¢‡ƒ²föçB×vV–v‡C¢s²Ð¢æÖ&–VçDfF"ç&÷6R²&6¶w&÷VæC¢Æ–æV"Öw&F–VçBƒCVFVrÂ6F#–#2Â6#cFcsR“²Ð¢æÖ&–VçDfF"æ&ÇVR²&6¶w&÷VæC¢Æ–æV"Öw&F–VçBƒCVFVrÂ3c†VS‚Â3#3s6#r“²Ð¢æÖ&–VçDWF†÷"²F—7Æ“¢fÆWƒ²Æ–vâÖ—FV×3¢6VçFW#²v¢Wƒ²Ð¢çfW&–f–VD&FvRÂçfW&–f–VD–æÆ–æR²F—7Æ“¢–æÆ–æRÖw&–C²Æ6RÖ—FV×3¢6VçFW#²v–GFƒ¢wƒ²†V–v‡C¢wƒ²&÷&FW"×&F—W3¢SS²6öÆ÷#¢6ffb–×÷'FçC²&6¶w&÷VæC¢6fc6#SS²föçB×6—¦S¢‚–×÷'FçC²föçB×vV–v‡C¢s²Ð¢çfW&–f–VD–æÆ–æR²v–GFƒ¢gƒ²†V–v‡C¢gƒ²Ð¢æWF†÷$Ö&²²6öÆ÷#¢6c6ƒ–×÷'FçC²föçB×6—¦S¢G‚–×÷'FçC²Ð¢ç÷7DÖVçR²Ö&v–âÖÆVgC¢WFó²Æ–vâ×6VÆc¢fÆW‚×7F'C²&÷&FW#¢²6öÆ÷#¢3sss²&6¶w&÷VæC¢G&ç7&VçC²föçB×6—¦S¢‡ƒ²Ð¢ç÷7EFW‡B²Ö&v–ã¢cƒ²föçB×6—¦S¢gƒ²Æ–æRÖ†V–v‡C¢ãsS²v†—FR×76S¢æ÷&ÖÃ²Ð¢æÖ&–VçEF÷–2²6öÆ÷#¢6c#fC#²Ð¢æF—66Æ÷7W&T&FvR²F—7Æ“¢–æÆ–æRÖfÆWƒ²Ö&v–ã¢'‚cƒ²FF–æs¢W‚—ƒ²&÷&FW"×&F—W3¢““—ƒ²6öÆ÷#¢6cV²&6¶w&÷VæC¢f"‚ÒÖ÷&ævR×6ögB“²föçB×6—¦S¢'ƒ²föçB×vV–v‡C¢s²Ð¢ç÷7D7F–öç2²F—7Æ“¢fÆWƒ²§W7F–g’Ö6öçFVçC¢76RÖ&÷VæC²Ö&v–ã¢#G‚Ó#G‚²FF–æs¢G‚'ƒ²&÷&FW"×F÷¢‚6öÆ–Bf"‚ÒÖÆ–æR“²6öÆ÷#¢3ƒƒƒ²föçB×6—¦S¢7ƒ²Ð¢æÖ&–VçDÖVF–²÷6—F–öã¢&VÆF—fS²F—7Æ“¢w&–C²Æ–vâÖ6öçFVçC¢6VçFW#²§W7F–g’Ö—FV×3¢6VçFW#²v¢‡ƒ²†V–v‡C¢#CWƒ²Ö&v–ã¢G‚cƒ²FF–æs¢#'ƒ²÷fW&fÆ÷s¢†–FFVã²&÷&FW"×&F—W3¢‡ƒ²6öÆ÷#¢6ffc²FW‡BÖÆ–vã¢6VçFW#²Ð¢æÖ&–VçDÖVF–£¦&Vf÷&R²6öçFVçC¢"#²÷6—F–öã¢'6öÇWFS²–ç6WC¢²&6¶w&÷VæC¢Æ–æV"Öw&F–VçB‡G&ç7&VçB3RRÂ&v&ƒÃÃÂãc"’“²Ð¢æÖ&–VçDÖVF–â¢²÷6—F–öã¢&VÆF—fS²¢Ö–æFWƒ¢²Ð¢æÖ&–VçDÖVF–â"²Ö‚×v–GFƒ¢Cƒ²föçB×6—¦S¢#Gƒ²Æ–æRÖ†V–v‡C¢ã3S²Ð¢ç66–VçF—7DÖVF–²&6¶w&÷VæC¢&F–ÂÖw&F–VçB†6—&6ÆRBSR3‚RÂ66“ƒR"RÂG&ç7&VçB2R’ÂÆ–æV"Öw&F–VçBƒ“FVrÂG&ç7&VçB3bRÂ33“C#Cr3rRc2RÂG&ç7&VçBcBR’ÂÆ–æV"Öw&F–VçBƒ3VFVrÂ3S#&RÂ3V#Cc3rS"RÂ3C’“²Ð¢æ†VDÖVF–²†V–v‡C¢#Wƒ²Ö&v–âÖÆVgC¢²&6¶w&÷VæC¢&F–ÂÖw&F–VçB†6—&6ÆRBs"R#"RÂ6ffcbrRÂG&ç7&VçB‚R’ÂÆ–æV"Öw&F–VçBƒFVrÂ3VC“6B#‚RÂG&ç7&VçB#’R’ÂÆ–æV"Öw&F–VçBƒSVFVrÂ3s&FCÂ6S&3v2c"RÂ3†F“V"“²Ð¢æÖVF–¶–6¶W"²FF–æs¢G‚—ƒ²&÷&FW#¢‚6öÆ–B&v&ƒ#SRÃ#SRÃ#SRÂãc"“²&÷&FW"×&F—W3¢““—ƒ²föçB×6—¦S¢'ƒ²Ð¢æÖVF–Æ’²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²v–GFƒ¢C‡ƒ²†V–v‡C¢C‡ƒ²FF–ærÖÆVgC¢7ƒ²&÷&FW"×&F—W3¢SS²6öÆ÷#¢f"‚ÒÖ÷&ævR“²&6¶w&÷VæC¢&v&ƒ#SRÃ#SRÃ#SRÂãƒR“²föçB×6—¦S¢—ƒ²Ð¢æÖVF–ÖWF²÷6—F–öã¢'6öÇWFR–×÷'FçC²&–v‡C¢Gƒ²&÷GFöÓ¢ƒ²ÆVgC¢Gƒ²F—7Æ“¢fÆWƒ²§W7F–g’Ö6öçFVçC¢76RÖ&WGvVVã²6öÆ÷#¢6ffc²föçB×6—¦S¢'ƒ²Ð¢æÖ&–VçEöÆÂ²F—7Æ“¢w&–C²v¢ƒ²Ö&v–ã¢G‚cƒ²FF–æs¢g‚‡‚'ƒ²&÷&FW"×&F—W3¢wƒ²&6¶w&÷VæC¢6cvcvcƒ²Ð¢æÖ&–VçEöÆÂ²Ö&v–ã¢'ƒ²6öÆ÷#¢3SSS²Ð¢æÖ&–VçEöÆÂ'WGFöâ²Ö–âÖ†V–v‡C¢Cƒ²&÷&FW#¢‚6öÆ–B6SFSFSc²&÷&FW"×&F—W3¢Wƒ²6öÆ÷#¢3SSS²&6¶w&÷VæC¢6ffc²7W'6÷#¢FVfVÇC²Ð¢æÖ&–VçEöÆÂ6ÖÆÂ²6öÆ÷#¢3“““²Ð¢çV÷FVE÷7B²Ö&v–ã¢G‚cƒ²FF–æs¢Wƒ²&÷&FW"×&F—W3¢wƒ²&6¶w&÷VæC¢6cvcvcƒ²Ð¢çV÷FVE÷7Bâ"²F—7Æ“¢fÆWƒ²Æ–vâÖ—FV×3¢6VçFW#²v¢Wƒ²Ð¢çV÷FVE÷7Bâ²Ö&v–ã¢‡‚²6öÆ÷#¢3SSS²Æ–æRÖ†V–v‡C¢ãcS²Ð ¢ç&VÖ÷fVE÷7B²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²Æ–vâÖ6öçFVçC¢6VçFW#²Ö–âÖ†V–v‡C¢#cƒ²Ö&v–ã¢#‚cƒ²FF–æs¢3gƒ²&÷&FW#¢‚F6†VB63–3F&C²&÷&FW"×&F—W3¢‡ƒ²&6¶w&÷VæC¢6cFc&Vc²FW‡BÖÆ–vã¢6VçFW#²Ð¢ç&VÖ÷fVE÷7Bâ7â²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²v–GFƒ¢Sgƒ²†V–v‡C¢Sgƒ²&÷&FW"×&F—W3¢SS²6öÆ÷#¢f"‚ÒÖFævW"“²&6¶w&÷VæC¢f"‚ÒÖFævW"×6ögB“²föçB×6—¦S¢3Gƒ²Ð¢ç&VÖ÷fVE÷7Bƒ"²Ö&v–ã¢g‚²föçB×6—¦S¢#'ƒ²Ð¢ç&VÖ÷fVE÷7B²Ö&v–ã¢‡‚²6öÆ÷#¢3ƒƒƒ²Ð¢ç7FGW46&B²FF–æs¢#‚#Gƒ²Ð¢ææ÷F–6T†VF–ær²F—7Æ“¢fÆWƒ²Æ–vâÖ—FV×3¢6VçFW#²v¢7ƒ²Ð¢ææ÷F–6T†VF–æræW–V'&÷r²Ö&v–ã¢²Ð¢ææ÷F–6T†VF–ærƒ"²Ö&v–ã¢'‚²föçB×6—¦S¢#ƒ²Ð¢ç7FGW4–6öâ²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²v–GFƒ¢CGƒ²†V–v‡C¢CGƒ²fÆWƒ¢æöæS²&÷&FW"×&F—W3¢SS²föçB×6—¦S¢#Gƒ²föçB×vV–v‡C¢“²Ð¢ç7FGW4–6öâçv&æ–ær²6öÆ÷#¢f"‚ÒÖ÷&ævR“²&6¶w&÷VæC¢f"‚ÒÖ÷&ævR×6ögB“²Ð¢ç7FGW4–6öâæFævW"²6öÆ÷#¢f"‚ÒÖFævW"“²&6¶w&÷VæC¢f"‚ÒÖFævW"×6ögB“²Ð¢ç'VÆUFW‡B²Ö&v–ã¢w‚²FF–ær×F÷¢Wƒ²&÷&FW"×F÷¢‚6öÆ–Bf"‚ÒÖÆ–æR“²6öÆ÷#¢3SSS²föçB×6—¦S¢Gƒ²Æ–æRÖ†V–v‡C¢ãs²Ð¢æ6öç6WVVæ6T&÷‚²Ö&v–ã¢G‚²FF–æs¢7‚Gƒ²&÷&FW"ÖÆVgC¢G‚6öÆ–Bf"‚ÒÖ÷&ævR“²6öÆ÷#¢36#CƒC#²&6¶w&÷VæC¢6ffc†c²föçB×6—¦S¢7ƒ²Æ–æRÖ†V–v‡C¢ãcS²Ð¢æÖöFW&F÷$6&B²Ö&v–â×F÷¢²Ð¢æ7&VF÷%7FGW4†VF–ær²F—7Æ“¢fÆWƒ²Æ–vâÖ—FV×3¢6VçFW#²v¢7ƒ²Ð¢æ7&VF÷%7FGW4†VF–ærƒ"ÂæfVVF&6µæVÅ&÷rƒ"²Ö&v–ã¢7‚²föçB×6—¦S¢—ƒ²Ð¢æ7&VF÷$fF"²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²v–GFƒ¢CGƒ²†V–v‡C¢CGƒ²fÆWƒ¢æöæS²&÷&FW"×&F—W3¢SS²6öÆ÷#¢6ffc²&6¶w&÷VæC¢Æ–æV"Öw&F–VçBƒCVFVrÂ6ffCSrÂ6fcsƒ“²föçB×vV–v‡C¢s²Ð¢çVÆ—G”7&VF÷$&FvR²F—7Æ“¢–æÆ–æRÖfÆWƒ²Æ–vâÖ—FV×3¢6VçFW#²Ö–âÖ†V–v‡C¢#Wƒ²Ö&v–âÖÆVgC¢wƒ²FF–æs¢7‚—ƒ²&÷&FW#¢‚6öÆ–B6c#ƒs²&÷&FW"×&F—W3¢““—ƒ²6öÆ÷#¢6ƒV#²&6¶w&÷VæC¢6ffcFSS²föçB×6—¦S¢'ƒ²fW'F–6ÂÖÆ–vã¢Ö–FFÆS²Ð¢æÖöFW&F÷%FW‡B²Ö&v–ã¢W‚²FF–ær×F÷¢Gƒ²&÷&FW"×F÷¢‚6öÆ–Bf"‚ÒÖÆ–æR“²6öÆ÷#¢3ccc²föçB×6—¦S¢Gƒ²Æ–æRÖ†V–v‡C¢ãs²Ð¢æfVVF&6µæVÅ&÷r²F—7Æ“¢fÆWƒ²Æ–vâÖ—FV×3¢6VçFW#²§W7F–g’Ö6öçFVçC¢76RÖ&WGvVVã²v¢‡ƒ²Ð¢ç6V6öæF'”'WGFöâ²Ö–âÖ†V–v‡C¢3‡ƒ²FF–æs¢‡‚wƒ²&÷&FW#¢‚6öÆ–Bf"‚ÒÖ÷&ævR“²&÷&FW"×&F—W3¢#ƒ²6öÆ÷#¢f"‚ÒÖ÷&ævRÖF&²“²&6¶w&÷VæC¢6ffc²föçB×vV–v‡C¢s²Ð¢ç6V6öæF'”'WGFöã¦†÷fW"²&6¶w&÷VæC¢f"‚ÒÖ÷&ævR×6ögB“²Ð¢æfVVF&6´6öæf—&ÖF–öâ²Ö&v–ã¢W‚²FF–ær×F÷¢Gƒ²&÷&FW"×F÷¢‚6öÆ–Bf"‚ÒÖÆ–æR“²6öÆ÷#¢3FSscVS²föçB×6—¦S¢Gƒ²Ð¢æfVVF&6´F–Æör²÷6—F–öã¢f—†VC²¢Ö–æFWƒ¢²–ç6WC¢²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²FF–æs¢#ƒ²&6¶w&÷VæC¢&v&ƒÂÂÂãC"“²Ð¢æfVVF&6´F–ÆöuæVÂ²v–GFƒ¢Ö–âƒS#‚ÂR“²FF–æs¢#Gƒ²&÷&FW"×&F—W3¢‡ƒ²&6¶w&÷VæC¢6ffc²&÷‚×6†F÷s¢‡‚c‚&v&ƒÂÂÂã#B“²Ð¢æfVVF&6´F–ÆöuæVÂƒ"²Ö&v–ã¢²föçB×6—¦S¢#ƒ²Ð¢æfVVF&6´F–ÆöuæVÂ²Ö&v–ã¢‚7ƒ²6öÆ÷#¢3ccc²föçB×6—¦S¢Gƒ²Æ–æRÖ†V–v‡C¢ãcS²Ð¢æfVVF&6´F–ÆöuæVÂFW‡F&V²F—7Æ“¢&Æö6³²v–GFƒ¢S²Ö–âÖ†V–v‡C¢3ƒ²FF–æs¢'ƒ²&W6—¦S¢fW'F–6Ã²&÷&FW#¢‚6öÆ–B6CfCfCc²&÷&FW"×&F—W3¢Wƒ²Æ–æRÖ†V–v‡C¢ãc²Ð¢æfVVF&6´F–Æöt7F–öç2²F—7Æ“¢fÆWƒ²§W7F–g’Ö6öçFVçC¢fÆW‚ÖVæC²v¢ƒ²Ö&v–â×F÷¢Wƒ²Ð¢æfVVF&6´F–Æöt7F–öç2ç&–Ö'”'WGFöâ²Ö–âÖ†V–v‡C¢3‡ƒ²Ö&v–ã¢²FF–æs¢‡‚—ƒ²&÷&FW"×&F—W3¢#ƒ²Ð¢çFW‡D'WGFöâ²Ö–âÖ†V–v‡C¢3‡ƒ²FF–æs¢‡‚wƒ²&÷&FW#¢²6öÆ÷#¢3ccc²&6¶w&÷VæC¢G&ç7&VçC²Ð¢çFW‡D'WGFöã¦†÷fW"²&6¶w&÷VæC¢6cVcVcS²Ð¢æfVVE&WGW&å&÷r²FF–æs¢g‚#ƒ²FW‡BÖÆ–vã¢&–v‡C²Ð¢æfVVE&WGW&å&÷rç&WGW&ä'WGFöâ²Ö&v–ã¢²Ð¢æfVVE&WGW&å&÷r²Ö&v–ã¢‡‚²6öÆ÷#¢3“““²föçB×6—¦S¢'ƒ²Ð¢æfVVE&WGW&å&÷r7G&öær²6öÆ÷#¢3SSS²föçBÖfÖ–Ç“¢6öç6öÆ2ÂÖöæ÷76S²Ð ¢æÆæF–æu6†VÆÂ²F—7Æ“¢w&–C²Æ6RÖ—FV×3¢6VçFW#²Ö–âÖ†V–v‡C¢fƒ²FF–æs¢#Gƒ²&6¶w&÷VæC¢Æ–æV"Öw&F–VçB‡&v&ƒ#SRÃ3ÃÂã‚’ÂG&ç7&VçBƒ‚’Âf"‚ÒÖ6çf2“²Ð¢æÆæF–æt6&B²v–GFƒ¢Ö–âƒsƒ‚ÂR“²FF–æs¢S'ƒ²&÷&FW#¢‚6öÆ–B6SVSVSS²&÷&FW"×F÷¢7‚6öÆ–Bf"‚ÒÖ÷&ævR“²&÷&FW"×&F—W3¢Wƒ²&6¶w&÷VæC¢6ffc²FW‡BÖÆ–vã¢6VçFW#²Ð¢æÆæF–æt6&Bæ'&æDÖ&²²Ö&v–ã¢WFò#'ƒ²Ð¢æÆæF–ætÆVB²Ö&v–ã¢g‚WFò#‡ƒ²Ð¢æ–æfôw&–B²F—7Æ“¢w&–C²w&–B×FV×ÆFRÖ6öÇVÖç3¢&WVBƒ2Âg"“²Ö&v–ã¢#‡‚²&÷&FW"×F÷¢‚6öÆ–Bf"‚ÒÖÆ–æR“²&÷&FW"Ö&÷GFöÓ¢‚6öÆ–Bf"‚ÒÖÆ–æR“²FW‡BÖÆ–vã¢ÆVgC²Ð¢æ–æfôw&–BF—b²F—7Æ“¢w&–C²v¢‡ƒ²FF–æs¢‡ƒ²Ð¢æ–æfôw&–BF—b²F—b²&÷&FW"ÖÆVgC¢‚6öÆ–Bf"‚ÒÖÆ–æR“²Ð¢æ–æfôw&–B"²6öÆ÷#¢f"‚ÒÖ÷&ævRÖF&²“²Ð¢æ–æfôw&–B7â²6öÆ÷#¢3sss²föçB×6—¦S¢7ƒ²Æ–æRÖ†V–v‡C¢ãc²Ð¢æ6†V6µ&÷r²F—7Æ“¢fÆWƒ²Æ–vâÖ—FV×3¢fÆW‚×7F'C²v¢'ƒ²FF–æs¢gƒ²&÷&FW"×&F—W3¢Gƒ²&6¶w&÷VæC¢6cfcvc3²FW‡BÖÆ–vã¢ÆVgC²Æ–æRÖ†V–v‡C¢ãc²Ð¢æ6†V6µ&÷r–çWB²v–GFƒ¢‡ƒ²†V–v‡C¢‡ƒ²fÆWƒ¢æöæS²Ö&v–â×F÷¢7ƒ²66VçBÖ6öÆ÷#¢f"‚ÒÖ÷&ævR“²Ð¢ç&÷WFTW'&÷"²v–GFƒ¢Ö–âƒc#‚Â6Æ2ƒRÒ3'‚’“²Ö&v–ã¢‡f‚WFó²FF–æs¢C'ƒ²&÷&FW"×F÷¢7‚6öÆ–Bf"‚ÒÖ÷&ævR“²&6¶w&÷VæC¢6ffc²FW‡BÖÆ–vã¢6VçFW#²Ð ¤ÖVF–†Ö‚×v–GFƒ¢ƒ‚’°¢æÖ–7&ö&Æötg&ÖR²w&–B×FV×ÆFRÖ6öÇVÖç3¢##‡‚Ö–æÖ‚ƒÂƒ‚“²Ö‚×v–GFƒ¢Cƒ²FF–æs¢ƒ²Ð¢ç&–v‡E&–Â²F—7Æ“¢æöæS²Ð§Ð¤ÖVF–†Ö‚×v–GFƒ¢“c‚’°¢æÖ–7&ö&Æötg&ÖR²F—7Æ“¢&Æö6³²v–GFƒ¢S²Ö‚×v–GFƒ¢ƒƒ²Ö&v–ã¢‚WFó²FF–æs¢ƒ²Ð¢æÆVgE&–Â²F—7Æ“¢æöæS²Ð¢æÖ–ä6öÇVÖâ²v–GFƒ¢S²Ð§Ð¤ÖVF–†Ö‚×v–GFƒ¢s#‚’°¢çF÷&"²†V–v‡C¢cƒ²FF–æs¢'ƒ²v¢ƒ²Ð¢æ'&æDÆö6·W²Ö–â×v–GFƒ¢²Ð¢æ'&æDÆö6·W6ÖÆÂ²F—7Æ“¢æöæS²Ð¢æÖ–7&ôæb²†V–v‡C¢S‡ƒ²v¢²Ð¢æÖ–7&ôæb²Ö–â×v–GFƒ¢C‡ƒ²†V–v‡C¢S‡ƒ²Ð¢æÖ–7&õ6V&6‚²F—7Æ“¢æöæS²Ð¢æ6ö×÷6W$6&B²FF–æs¢Gƒ²Ð¢ç÷7DVF—F÷"²†V–v‡C¢c‡ƒ²FF–æs¢'‚'‚C'ƒ²Ð¢æ6ö×÷6W%FööÇ2²v¢Wƒ²Ð¢æ6ö×÷6W%FööÇ27ã¦çF‚Ö6†–ÆB†â³B’²F—7Æ“¢æöæS²Ð¢æfVVD6&B²FF–æs¢w‚g‚²Ð¢ç÷7EFW‡BÂæF—66Æ÷7W&T&FvR²Ö&v–âÖÆVgC¢²Ð¢ç÷7D7F–öç2²Ö&v–â×&–v‡C¢Ógƒ²Ö&v–âÖÆVgC¢Ógƒ²Ð¢æÖ&–VçDÖVF–ÂæÖ&–VçEöÆÂÂçV÷FVE÷7BÂç&VÖ÷fVE÷7B²Ö&v–âÖÆVgC¢²Ð¢æÖ&–VçDÖVF–²†V–v‡C¢“ƒ²Ð¢æ†VDÖVF–²†V–v‡C¢sWƒ²Ð¢æfVVE&WGW&å&÷r²FF–ærÖ–æÆ–æS¢'ƒ²Ð¢çVÆ—G”7&VF÷$&FvR²F—7Æ“¢fÆWƒ²v–GFƒ¢f—BÖ6öçFVçC²Ö&v–ã¢w‚²Ð¢æÆæF–æt6&B²FF–æs¢3'‚#'ƒ²Ð¢æ–æfôw&–B²w&–B×FV×ÆFRÖ6öÇVÖç3¢g#²Ð¢æ–æfôw&–BF—b²F—b²&÷&FW"×F÷¢‚6öÆ–Bf"‚ÒÖÆ–æR“²&÷&FW"ÖÆVgC¢²Ð§Ð¤ÖVF–†Ö‚×v–GFƒ¢S#‚’°¢æ'&æDÆö6·W7G&öær²föçB×6—¦S¢Wƒ²Ð¢æÖ–7&ôæb²F—7Æ“¢æöæS²Ð¢æ6ö×÷6W%FööÇ27ã¦çF‚Ö6†–ÆB†â³"’²F—7Æ“¢æöæS²Ð¢æ6ö×÷6W$7F–öç2²v¢wƒ²Ð¢æFV6Æ&F–öäÖVçR²÷6—F–öã¢f—†VC²F÷¢ƒgƒ²&–v‡C¢'ƒ²ÆVgC¢'ƒ²v–GFƒ¢WFó²Ð¢æFV6Æ&F–öäÖVçS£¦gFW"²F—7Æ“¢æöæS²Ð¢æFV6Æ&F–öäw&–B²w&–B×FV×ÆFRÖ6öÇVÖç3¢g#²Ð¢çf—6–&–Æ—G•G&–vvW"²föçB×6—¦S¢7ƒ²Ð¢æ6ö×÷6W%V&Æ—6„'WGFöâ²Ö–â×v–GFƒ¢s'ƒ²FF–ærÖ–æÆ–æS¢wƒ²Ð§Ð¤ÖVF–‡&VfW'2×&VGV6VBÖÖ÷F–öã¢&VGV6R’°¢‡FÖÂ²67&öÆÂÖ&V†f–÷#¢WFó²Ð¢¢Â££¦&Vf÷&RÂ££¦gFW"²G&ç6—F–öã¢æöæR–×÷'FçC²Ð§Ð 
+  function treatmentNotice(type) {
+    const isRemoval = type === "removal";
+    return `<aside class="statusCard treatmentNotice" role="status" aria-live="polite">
+      <div class="noticeHeading"><span class="statusIcon ${isRemoval ? "danger" : "warning"}" aria-hidden="true">${isRemoval ? "Ã—" : "!"}</span><div><p class="eyebrow">å¹³å°é€šçŸ¥</p><h2>${isRemoval ? "å¸–å­å·²è¢«ç§»é™¤" : "è¯·è¡¥å……AIå†…å®¹å£°æ˜Ž"}</h2></div></div>
+      <p class="ruleText">${COPY.rule}</p>
+      <p class="consequenceBox">${isRemoval ? "å¸–å­å·²ä»Žå…¬å¼€é¡µé¢ç§»é™¤ã€‚è¡¥å……AIå†…å®¹å£°æ˜ŽåŽå¯é‡æ–°æäº¤ã€‚" : "å¸–å­ä»ä¿æŒå‘å¸ƒçŠ¶æ€ã€‚å»ºè®®è¡¥å……AIå†…å®¹å£°æ˜Žã€‚"}</p>
+    </aside>`;
+  }
+
+  function moderatorPanel() {
+    if (STUDY === "recognition") return recognitionPanel();
+    if (STUDY === "feedback") return feedbackPanel();
+    return "";
+  }
+
+  function recognitionPanel() {
+    const recognized = MODERATOR === "recognized";
+    return `<aside class="statusCard moderatorCard recognitionCard" aria-label="åˆ›ä½œè€…è´¦å·çŠ¶æ€">
+      <div class="creatorStatusHeading"><span class="creatorAvatar" aria-hidden="true">å­¦</span><div><p class="eyebrow">åˆ›ä½œè€…è´¦å·çŠ¶æ€</p><h2>æ—¥å¸¸è®°å½•å‘˜ ${recognized ? '<span class="qualityCreatorBadge">ä¼˜è´¨åˆ›ä½œè€…</span>' : ""}</h2></div></div>
+      <p class="moderatorText">${recognized ? "å¹³å°å·²æŽˆäºˆè¯¥è´¦å·ä¼˜è´¨åˆ›ä½œè€…æ ‡è¯†ã€‚" : "è¯¥è´¦å·å½“å‰æ˜¾ç¤ºä¸ºæ™®é€šåˆ›ä½œè€…è´¦å·ã€‚"}</p>
+    </aside>`;
+  }
+
+  function feedbackPanel() {
+    const available = MODERATOR === "available";
+    return `<aside class="statusCard moderatorCard feedbackCard" aria-label="æœ¬æ¬¡å¤„ç†è®°å½•">
+      <div class="feedbackPanelRow"><div><p class="eyebrow">æœ¬æ¬¡å¤„ç†è®°å½•</p><h2>AIå†…å®¹å£°æ˜Žå¤„ç†</h2></div>
+      ${available ? '<button id="openFeedback" type="button" class="secondaryButton">æäº¤åé¦ˆ</button>' : ""}</div>
+      ${state.feedbackSubmitted ? '<p class="feedbackConfirmation" role="status">åé¦ˆå·²è®°å½•ã€‚</p>' : ""}
+      ${state.feedbackOpen ? feedbackDialog() : ""}
+    </aside>`;
+  }
+
+  function feedbackDialog() {
+    return `<div class="feedbackDialog" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle">
+      <div class="feedbackDialogPanel">
+        <h2 id="feedbackTitle">æäº¤åé¦ˆ</h2>
+        <p>è¯·ç®€è¦è¯´æ˜Žä½ å¯¹æœ¬æ¬¡å¤„ç†çš„ç–‘é—®æˆ–æ„è§ï¼ˆé€‰å¡«ï¼‰ã€‚</p>
+        <textarea id="feedbackText" maxlength="500" aria-label="åé¦ˆå†…å®¹"></textarea>
+        <div class="feedbackDialogActions"><button id="cancelFeedback" type="button" class="textButton">å–æ¶ˆ</button><button id="submitFeedback" type="button" class="primaryButton">æäº¤</button></div>
+      </div>
+    </div>`;
+  }
+
+  function returnRow() {
+    return `<div class="feedReturnRow"><button id="returnSurvey" class="primaryButton returnButton">è¿”å›žé—®å·</button><p>å®Œæˆç ï¼š<strong>${state.completionCode}</strong></p></div>`;
+  }
+
+  function ambientPostScientist() {
+    return `<article class="feedCard ambientPost">
+      <div class="feedAuthor"><div class="avatar smallAvatar ambientAvatar">å²³</div><div><div class="ambientAuthor"><b>æµ·å²³æ–°é—»</b><span class="verifiedBadge">V</span><span class="authorMark">âœº</span></div><span>23å°æ—¶å‰ Â· æ¥è‡ªè§†é¢‘å·</span></div><button class="postMenu" aria-label="æ›´å¤šæ“ä½œ">âŒ„</button></div>
+      <p class="postText ambientText"><span class="ambientTopic">#é’å¹´ç§‘ç ”å·¥ä½œè€…çš„ä¸€å¤©#</span> ä»Žæ ¡å›­å®žéªŒå®¤åˆ°å›½å®¶é‡ç‚¹é¡¹ç›®ï¼Œ38å²çš„å‘¨è¶ŠæŠŠåå¤šå¹´æ—¶é—´éƒ½ç”¨åœ¨é«˜å¯ä¿¡è½¯ä»¶ç ”ç©¶ä¸Šã€‚è®°è€…è§åˆ°ä»–æ—¶ï¼Œä»–åˆšç»“æŸä¸€åœºå­¦ç”Ÿè®¨è®ºä¼šã€‚â€œæŠŠå¤æ‚çš„æŠ€æœ¯è®²ç»™æ›´å¤šäººå¬ï¼Œä¹Ÿæ˜¯ç ”ç©¶çš„ä¸€éƒ¨åˆ†ã€‚â€</p>
+      <div class="ambientMedia scientistMedia"><span class="mediaKicker">äººç‰©</span><b>æŠŠå¤æ‚çš„æŠ€æœ¯è®²ç»™æ›´å¤šäººå¬</b><span class="mediaPlay">â–¶</span><span class="mediaMeta"><span>155ä¸‡æ¬¡è§‚çœ‹</span><span>01:26</span></span></div>
+      <div class="postActions"><span>â†— è½¬å‘ 28</span><span>â–¢ è¯„è®º 349</span><span>â™¡ å–œæ¬¢ 3979</span></div>
+    </article>`;
+  }
+
+  function ambientPostPoll() {
+    return `<article class="feedCard ambientPost">
+      <div class="feedAuthor"><div class="avatar smallAvatar ambientAvatar rose">è´¢</div><div><div class="ambientAuthor"><b>å£¹å·è´¢ç»æ—¥æŠ¥</b><span class="verifiedBadge">V</span><span class="authorMark">âœº</span></div><span>2å°æ—¶å‰</span></div><button class="postMenu" aria-label="æ›´å¤šæ“ä½œ">âŒ„</button></div>
+      <p class="postText ambientText">å°è°ƒæŸ¥ï¼šä½ ä¼šå®šæœŸä½“æ£€å—ï¼Ÿ <span class="ambientTopic">#æ…¢æ€§ç‚Žç—‡è‡³å°‘å…³è”8ç§å¥åº·é£Žé™©#</span></p>
+      <div class="ambientPoll"><p>ä½ ä¼šå®šæœŸä½“æ£€å—ï¼Ÿ</p><button type="button">ä¼š</button><button type="button">ä¸ä¼š</button><small>64äººå‚ä¸Ž Â· è¿˜æœ‰2å¤©ç»“æŸ</small></div>
+      <div class="postActions"><span>â†— è½¬å‘ 12</span><span>â–¢ è¯„è®º 86</span><span>â™¡ å–œæ¬¢ 268</span></div>
+    </article>`;
+  }
+
+  function ambientPostWeather() {
+    return `<article class="feedCard ambientPost">
+      <div class="feedAuthor"><div class="avatar smallAvatar ambientAvatar blue">è¾Ÿ</div><div><div class="ambientAuthor"><b>æ¾„æ˜Žè¾Ÿè°£</b><span class="verifiedBadge">V</span><span class="authorMark">âœº</span></div><span>24åˆ†é’Ÿå‰ Â· æ¥è‡ªç½‘é¡µç‰ˆ</span></div><button class="postMenu" aria-label="æ›´å¤šæ“ä½œ">âŒ„</button></div>
+      <p class="postText ambientText"><span class="ambientTopic">#é«˜æ¸©å¤©æ°”é˜²æš‘æŒ‡å—#</span> â€œæ¡‘æ‹¿å¤©â€ç­‰åŒäºŽé«˜æ¸©å¤©å—ï¼Ÿé«˜æ¸©ä¸Žé«˜æ¹¿åŒæ—¶å‡ºçŽ°æ—¶ï¼Œäººä½“æ•£çƒ­ä¼šæ›´å›°éš¾ï¼Œä½†ä¸¤è€…ä¸èƒ½ç®€å•ç”»ç­‰å·ã€‚</p>
+      <div class="quotedPost"><b>@åŸŽå¸‚æ°”è±¡è§‚å¯Ÿ <span class="verifiedInline">V</span></b><p>æœ¬å‘¨ä¸­ä¼ä»å°†æŒç»­ï¼Œéƒ¨åˆ†åœ°åŒºåˆåŽæ¹¿åº¦è¾ƒé«˜ã€‚æˆ·å¤–æ´»åŠ¨è¯·åŠæ—¶è¡¥æ°´ï¼Œé¿å…é•¿æ—¶é—´æš´æ™’ã€‚</p><div class="ambientMedia heatMedia"><span class="mediaKicker">æ°”è±¡ç§‘æ™®</span><b>é«˜æ¸©é«˜æ¹¿å¤©æ°”å¦‚ä½•ç§‘å­¦é˜²æš‘</b><span class="mediaPlay">â–¶</span><span class="mediaMeta"><span>93ä¸‡æ¬¡è§‚çœ‹</span><span>02:02</span></span></div></div>
+      <div class="postActions"><span>â†— è½¬å‘ 8</span><span>â–¢ è¯„è®º 41</span><span>â™¡ å–œæ¬¢ 303</span></div>
+    </article>`;
+  }
+
+  function escapeHtml(value) {
+    return value.replace(/[&<>'"]/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[character]);
+  }
+
+  function wireEvents() {
+    const editor = document.getElementById("postEditor");
+    editor?.addEventListener("input", (event) => {
+      state.draft = event.target.value;
+    });
+    editor?.addEventListener("blur", () => save("draft_saved"));
+
+    document.getElementById("declarationTrigger")?.addEventListener("click", () => {
+      if (state.published) return;
+      state.menuOpen = !state.menuOpen;
+      render();
+      if (state.menuOpen) document.querySelector(".declarationOption")?.focus();
+    });
+
+    document.querySelectorAll("[data-declaration]").forEach((button) => {
+      button.addEventListener("click", () => {
+        state.declarationChoice = button.dataset.declaration;
+        state.menuOpen = false;
+        save("declaration_selected");
+        render();
+      });
+    });
+
+    document.getElementById("publish")?.addEventListener("click", () => {
+      if (!state.draft.trim() || state.published) return;
+      state.published = true;
+      state.initialDisclosure = state.declarationChoice === "ai" ? "disclosed" : "undisclosed";
+      state.treatmentShown = state.initialDisclosure === "undisclosed";
+      state.moderatorShown = state.initialDisclosure === "undisclosed";
+      state.timestamps.publishedAt = new Date().toISOString();
+      save("published");
+      render();
+      document.querySelector(".participantPost")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    document.getElementById("openFeedback")?.addEventListener("click", () => {
+      state.feedbackOpen = true;
+      state.feedbackOpened = true;
+      state.timestamps.feedbackOpenedAt = new Date().toISOString();
+      save("feedback_opened");
+      render();
+      document.getElementById("feedbackText")?.focus();
+    });
+
+    document.getElementById("cancelFeedback")?.addEventListener("click", () => {
+      state.feedbackOpen = false;
+      save("feedback_cancelled");
+      render();
+    });
+
+    document.getElementById("submitFeedback")?.addEventListener("click", () => {
+      state.feedbackOpen = false;
+      state.feedbackSubmitted = true;
+      state.timestamps.feedbackSubmittedAt = new Date().toISOString();
+      // Feedback text is deliberately not retained or transmitted.
+      save("feedback_submitted");
+      render();
+    });
+
+    document.getElementById("returnSurvey")?.addEventListener("click", () => {
+      state.completed = true;
+      state.timestamps.completedAt = new Date().toISOString();
+      save("completed");
+      if (returnUrl) {
+        returnUrl.searchParams.set("pid", cleanPid);
+        returnUrl.searchParams.set("siteComplete", "1");
+        returnUrl.searchParams.set("completionCode", state.completionCode);
+        location.assign(returnUrl.toString());
+      } else {
+        const button = document.getElementById("returnSurvey");
+        button.textContent = "å·²å®Œæˆï¼Œè¯·è¿”å›žé—®å·é¡µé¢";
+        button.disabled = true;
+      }
+    });
+  }
+
+  save("opened");
+  render();
+})();
