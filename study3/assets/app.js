@@ -223,8 +223,9 @@
     const treatmentEligible = !disclosed;
     const removed = treatmentEligible && GOVERNANCE === "removal";
     const reminder = treatmentEligible && GOVERNANCE === "reminder";
+    const showRecognition = treatmentEligible && STUDY === "recognition" && MODERATOR === "recognized";
     return `<article class="feedCard participantPost" aria-label="你刚发布的帖子">
-      <div class="feedAuthor"><div class="avatar smallAvatar">学</div><div><b>日常记录员</b><span>刚刚 · 来自网页端</span></div></div>
+      <div class="feedAuthor participantAuthor"><div class="avatar smallAvatar">学</div><div><div class="participantIdentity"><b>日常记录员</b>${showRecognition ? '<span class="qualityCreatorBadge"><span aria-hidden="true">✦</span>优质创作者</span>' : ""}</div><span>刚刚 · 来自网页端</span></div></div>
       ${removed
         ? `<div class="removedPost"><span aria-hidden="true">×</span><h2>该内容已被移除</h2><p>帖子当前不在公开页面展示。</p></div>`
         : `${disclosed ? `<span class="disclosureBadge">AI生成或辅助</span>` : ""}<p class="postText">${escapeHtml(state.draft).replace(/\n/g, "<br>")}</p><div class="postActions"><span>转发 0</span><span>评论 0</span><span>喜欢 0</span></div>`}
@@ -242,17 +243,8 @@
   }
 
   function moderatorPanel() {
-    if (STUDY === "recognition") return recognitionPanel();
     if (STUDY === "feedback") return feedbackPanel();
     return "";
-  }
-
-  function recognitionPanel() {
-    const recognized = MODERATOR === "recognized";
-    return `<aside class="statusCard moderatorCard recognitionCard" aria-label="创作者账号状态">
-      <div class="creatorStatusHeading"><span class="creatorAvatar" aria-hidden="true">学</span><div><p class="eyebrow">创作者账号状态</p><h2>日常记录员 ${recognized ? '<span class="qualityCreatorBadge">优质创作者</span>' : ""}</h2></div></div>
-      <p class="moderatorText">${recognized ? "平台已授予该账号优质创作者标识。" : "该账号当前显示为普通创作者账号。"}</p>
-    </aside>`;
   }
 
   function feedbackPanel() {
