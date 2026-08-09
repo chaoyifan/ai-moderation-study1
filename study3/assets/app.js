@@ -230,30 +230,22 @@
         ? `<div class="removedPost"><span aria-hidden="true">×</span><h2>该内容已被移除</h2><p>帖子当前不在公开页面展示。</p></div>`
         : `${disclosed ? `<span class="disclosureBadge">AI生成或辅助</span>` : ""}<p class="postText">${escapeHtml(state.draft).replace(/\n/g, "<br>")}</p><div class="postActions"><span>转发 0</span><span>评论 0</span><span>喜欢 0</span></div>`}
     </article>
-    ${(removed || reminder) ? `${treatmentNotice(removed ? "removal" : "reminder")}${moderatorPanel()}` : ""}`;
+    ${(removed || reminder) ? treatmentNotice(removed ? "removal" : "reminder") : ""}`;
   }
 
   function treatmentNotice(type) {
     const isRemoval = type === "removal";
+    const feedbackAvailable = STUDY === "feedback" && MODERATOR === "available";
+    const feedbackAction = feedbackAvailable
+      ? state.feedbackSubmitted
+        ? '<span class="feedbackConfirmation" role="status">反馈已记录</span>'
+        : '<button id="openFeedback" type="button" class="secondaryButton">提交反馈</button>'
+      : "";
     return `<aside class="statusCard treatmentNotice" role="status" aria-live="polite">
       <div class="noticeHeading"><span class="statusIcon ${isRemoval ? "danger" : "warning"}" aria-hidden="true">${isRemoval ? "×" : "!"}</span><div><p class="eyebrow">平台通知</p><h2>${isRemoval ? "帖子已被移除" : "请补充AI内容声明"}</h2></div></div>
       <p class="ruleText">${COPY.rule}</p>
-      <p class="consequenceBox">${isRemoval ? "帖子已从公开页面移除。补充AI内容声明后可重新提交。" : "帖子仍保持发布状态。建议补充AI内容声明。"}</p>
-    </aside>`;
-  }
-
-  function moderatorPanel() {
-    if (STUDY === "feedback") return feedbackPanel();
-    return "";
-  }
-
-  function feedbackPanel() {
-    const available = MODERATOR === "available";
-    return `<aside class="statusCard moderatorCard feedbackCard" aria-label="本次处理记录">
-      <div class="feedbackPanelRow"><div><p class="eyebrow">本次处理记录</p><h2>AI内容声明处理</h2></div>
-      ${available ? '<button id="openFeedback" type="button" class="secondaryButton">提交反馈</button>' : ""}</div>
-      ${state.feedbackSubmitted ? '<p class="feedbackConfirmation" role="status">反馈已记录。</p>' : ""}
-      ${state.feedbackOpen ? feedbackDialog() : ""}
+      <div class="consequenceBox ${feedbackAvailable ? "withFeedbackAction" : ""}"><span>${isRemoval ? "帖子已从公开页面移除。补充AI内容声明后可重新提交。" : "帖子仍保持发布状态。建议补充AI内容声明。"}</span>${feedbackAction}</div>
+      ${feedbackAvailable && state.feedbackOpen ? feedbackDialog() : ""}
     </aside>`;
   }
 
