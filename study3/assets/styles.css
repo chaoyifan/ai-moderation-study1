@@ -249,11 +249,11 @@ a { color: inherit; text-decoration: none; }
 .ruleText { margin: 17px 0 0; padding-top: 15px; border-top: 1px solid var(--line); color: #555; font-size: 14px; line-height: 1.7; }
 .consequenceBox { margin: 14px 0 0; padding: 13px 14px; border-left: 4px solid var(--orange); color: #3b4842; background: #fff8f0; font-size: 13px; line-height: 1.65; }
 .moderatorCard { margin-top: 0; }
-.creatorStatusHeading { display: flex; align-items: center; gap: 13px; }
-.creatorStatusHeading h2, .feedbackPanelRow h2 { margin: 3px 0 0; font-size: 19px; }
-.creatorAvatar { display: grid; place-items: center; width: 44px; height: 44px; flex: none; border-radius: 50%; color: #fff; background: linear-gradient(145deg, #ffad57, #ff7800); font-weight: 700; }
-.qualityCreatorBadge { display: inline-flex; align-items: center; min-height: 25px; margin-left: 7px; padding: 3px 9px; border: 1px solid #f1b870; border-radius: 999px; color: #a85b00; background: #fff4e5; font-size: 12px; vertical-align: middle; }
-.moderatorText { margin: 15px 0 0; padding-top: 14px; border-top: 1px solid var(--line); color: #666; font-size: 14px; line-height: 1.7; }
+.participantIdentity { display: flex; align-items: center; flex-wrap: wrap; gap: 7px; min-height: 24px; }
+.participantIdentity b { line-height: 1.35; }
+.qualityCreatorBadge { display: inline-flex; align-items: center; gap: 3px; min-height: 23px; padding: 3px 8px; border: 1px solid #efaa55; border-radius: 999px; color: #a85b00; background: #fff1df; font-size: 11px; font-weight: 700; line-height: 1; white-space: nowrap; }
+.qualityCreatorBadge > span { color: #ff8200; font-size: 12px; }
+.feedbackPanelRow h2 { margin: 3px 0 0; font-size: 19px; }
 .feedbackPanelRow { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
 .secondaryButton { min-height: 38px; padding: 8px 17px; border: 1px solid var(--orange); border-radius: 20px; color: var(--orange-dark); background: #fff; font-weight: 700; }
 .secondaryButton:hover { background: var(--orange-soft); }
@@ -312,7 +312,6 @@ a { color: inherit; text-decoration: none; }
   .ambientMedia { height: 190px; }
   .heatMedia { height: 175px; }
   .feedReturnRow { padding-inline: 12px; }
-  .qualityCreatorBadge { display: flex; width: fit-content; margin: 7px 0 0; }
   .landingCard { padding: 32px 22px; }
   .infoGrid { grid-template-columns: 1fr; }
   .infoGrid div + div { border-top: 1px solid var(--line); border-left: 0; }
